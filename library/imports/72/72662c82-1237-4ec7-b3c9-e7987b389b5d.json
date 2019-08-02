@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "white-chess",
+    "texture": "ba628b1a-39b0-4476-a7de-776c9d7890d8",
+    "atlas": "",
+    "rect": [
+      3,
+      1,
+      146,
+      148
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      152,
+      151
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
