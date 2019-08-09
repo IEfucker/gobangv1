@@ -1,13 +1,12 @@
 {
   "version": "1.1.1",
   "windows": {
-    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 450,
-      "y": 133,
+      "x": 320,
+      "y": 160,
       "width": 1280,
       "height": 720,
       "layout": {
@@ -46,23 +45,23 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 333,
+                    "height": 299,
                     "type": "panel",
-                    "width": 486
+                    "width": 386.984375
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 333,
+                    "height": 299,
                     "type": "panel",
                     "width": 264
                   }
                 ],
-                "height": 333,
+                "height": 299,
                 "type": "dock-h",
-                "width": 752
+                "width": 653
               },
               {
                 "active": 0,
@@ -71,14 +70,14 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 266,
+                "height": 299.984375,
                 "type": "panel",
-                "width": 752
+                "width": 653
               }
             ],
             "height": 601,
             "type": "dock-v",
-            "width": 752
+            "width": 653
           },
           {
             "active": 0,
@@ -88,7 +87,7 @@
             ],
             "height": 601,
             "type": "panel",
-            "width": 304
+            "width": 403
           }
         ],
         "type": "dock-h"
@@ -106,18 +105,5 @@
       ]
     }
   },
-  "panels": {
-    "project-settings": {
-      "x": 662,
-      "y": 240,
-      "width": 600,
-      "height": 565
-    },
-    "sprite-editor": {
-      "x": 702,
-      "y": 240,
-      "width": 516,
-      "height": 539
-    }
-  }
+  "panels": {}
 }

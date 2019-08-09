@@ -8,6 +8,9 @@
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
+var io = require('./socket.io')
+console.log(io,window.io)
+
 cc.Class({
     extends: cc.Component,
 
