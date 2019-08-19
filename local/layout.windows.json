@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 320,
-      "y": 160,
-      "width": 1280,
+      "x": 237,
+      "y": 131,
+      "width": 1384,
       "height": 720,
       "layout": {
         "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 299,
                     "type": "panel",
-                    "width": 386.984375
+                    "width": 239
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 299,
                     "type": "panel",
-                    "width": 264
+                    "width": 265
                   }
                 ],
                 "height": 299,
                 "type": "dock-h",
-                "width": 653
+                "width": 506
               },
               {
                 "active": 0,
@@ -72,22 +72,23 @@
                 ],
                 "height": 299.984375,
                 "type": "panel",
-                "width": 653
+                "width": 506
               }
             ],
             "height": 601,
             "type": "dock-v",
-            "width": 653
+            "width": 506
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
+              "builder",
               "inspector",
               "cocos-services"
             ],
             "height": 601,
             "type": "panel",
-            "width": 403
+            "width": 654
           }
         ],
         "type": "dock-h"
@@ -99,11 +100,25 @@
         "console",
         "timeline",
         "game-window",
+        "builder",
         "inspector",
         "cocos-services",
         "scene"
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "preferences": {
+      "x": 1058,
+      "y": 175,
+      "width": 600,
+      "height": 565
+    },
+    "builder": {
+      "x": 307,
+      "y": 266,
+      "width": 670,
+      "height": 739
+    }
+  }
 }

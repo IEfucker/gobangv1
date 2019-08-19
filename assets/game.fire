@@ -411,12 +411,16 @@
       "__id__": 7
     },
     "_enabled": true,
+    "turn": 1,
+    "timestamp": null,
     "blackChess": {
       "__uuid__": "f97d25ed-1acc-4fcd-aa2a-3cd254015ef1"
     },
     "whiteChess": {
       "__uuid__": "eff6c43e-a577-4e9c-8cab-7be7b7e1f5a7"
     },
+    "colWidth": 47.1,
+    "boardMap": null,
     "_id": "87WMQyKKtKTql5KaN6lO9Q"
   },
   {
@@ -444,6 +448,13 @@
       "__id__": 2
     },
     "_enabled": true,
+    "board": {
+      "__id__": 7
+    },
+    "players": [],
+    "audiences": [],
+    "userId": null,
+    "currentRole": null,
     "_id": "7d0SA4cthOOr6diAhf0WpE"
   }
 ]
